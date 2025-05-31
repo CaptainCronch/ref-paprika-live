@@ -1,1 +1,0 @@
-# ref-paprika-live

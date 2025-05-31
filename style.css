@@ -1,0 +1,178 @@
+/* @import "./normalize.css";
+@import '@fontsource/noto-color-emoji';
+@import '@fontsource-variable/noto-emoji';
+@import '@fontsource/fira-mono';
+@import '@fontsource-variable/bitter';
+@import '@fontsource-variable/inter'; */
+
+:root {
+    --font-body: 'Inter Variable', 'Noto Color Emoji', sans-serif;
+	--font-heading: 'Bitter Variable', 'Noto Color Emoji', serif;
+	--font-mono: 'Noto Emoji Variable', 'Fira Mono', monospace;
+    --color-primary: #367264FF;
+    --color-secondary: #81211EFF;
+    --color-tertiary: #4D0B1EFF;
+    color: white;
+    font-size: 20px;
+    font-family: var(--font-body);
+    line-height: 1.5;
+}
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+body {
+    background-color: var(--color-primary);
+    padding: 1em 2em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-shadow: black 0px 0px 10px;
+    font-family: var(--font-heading);
+    margin: 0em;
+}
+
+p {
+    margin: 0em;
+}
+
+.title, .subtitle {
+    text-shadow: black 0px 0px 10px;
+    font-family: var(--font-mono);
+    font-weight: bold;
+}
+
+.title {
+    font-size: 1.75em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.subtitle {
+    margin-top: 0em;
+    font-size: 1.2em;
+}
+
+.page-subtitle {
+    margin-bottom: 1em;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-color: var(--color-secondary);
+    padding: 0.25em 0.75em;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 1em;
+}
+
+.chip-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 1.5em;
+    gap: 1em;
+}
+
+.chip {
+    display: inline;
+    background-color: var(--color-tertiary);
+    padding: 0.25em 0.75em;
+}
+
+nav a {
+    margin-top: 1em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.title-container {
+    width: 100%;
+}
+
+.links, nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+article {
+    width: 40em;
+}
+
+.description {
+    background-color: var(--color-secondary);
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* noto-color-emoji-emoji-400-normal */
+@font-face {
+    font-family: 'Noto Color Emoji';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/noto-color-emoji@latest/emoji-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/noto-color-emoji@latest/emoji-400-normal.woff) format('woff');
+}
+
+/* noto-emoji-emoji-wght-normal */
+@font-face {
+    font-family: 'Noto Emoji Variable';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300 700;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/noto-emoji:vf@latest/emoji-wght-normal.woff2) format('woff2-variations');
+}
+
+/* fira-mono-latin-400-normal */
+@font-face {
+    font-family: 'Fira Mono';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.woff) format('woff');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* bitter-latin-wght-normal */
+@font-face {
+    font-family: 'Bitter Variable';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 100 900;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/bitter:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* inter-latin-wght-normal */
+@font-face {
+    font-family: 'Inter Variable';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 100 900;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/inter:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
