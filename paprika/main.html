@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../normalize.css">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -53,10 +54,11 @@
             </p>
         </div>
     </article>
-    <main>
-        <template id="">
+    <main id="ref-list">
+        <template id="ref-template">
             <div class="ref-container">
-                <img src="" alt="">
+                <!-- <img src="" alt=""> -->
+                <p><slot name="title">this is the default title</slot></p>
             </div>
         </template>
     </main>
