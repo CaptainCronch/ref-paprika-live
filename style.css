@@ -34,6 +34,11 @@ h1, h2, h3, h4, h5, h6{
     margin: 0em;
 }
 
+h1 {
+    line-height: 1.15;
+    margin-bottom: 0.25em;
+}
+
 p {
     margin: 0em;
 }
@@ -55,6 +60,10 @@ p {
     font-size: 1.2em;
 }
 
+.title-container {
+    width: 100%;
+}
+
 .page-subtitle {
     margin-bottom: 1em;
 }
@@ -66,7 +75,6 @@ p {
     padding: 0.25em 0.75em;
     font-weight: bold;
     font-size: 1.2em;
-    margin-right: 1em;
 }
 
 .chip-container {
@@ -87,34 +95,28 @@ p {
     padding: 0.25em 0.75em;
 }
 
-nav a {
-    margin-top: 1em;
-}
-
 header {
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
-}
-
-.title-container {
-    width: 100%;
+    gap: 1em;
 }
 
 .links, nav {
     width: 100%;
     display: flex;
+    gap: 1em;
     align-items: center;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
 
 nav {
-    margin-top: 1em;
-    margin-bottom: 2em;
+    margin: 2em 0em;
 }
 
 article {
-    width: 40em;
+    width: 45vw;
 }
 
 .description {
@@ -122,11 +124,105 @@ article {
     padding: 1em;
 }
 
-main {
+#ref-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+.ref-container {
+    max-width: 45vw;
+    padding: 1em;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    /* margin-right: auto; */
+}
+
+.ref-image {
+    width: 100%;
+}
+
+.ref-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 0.75em;
+    margin-bottom: 0.5rem;
+}
+
+.ref-filename {
+    text-align: right;
+}
+
+.ref-description {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.ref-artist-info {
+    background-color: var(--color-tertiary);
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ref-artist-title {
+    font-weight: bold;
+}
+
+.ref-artist-profile {
+    background-color: var(--color-secondary);
+    padding: 0.25em 0.75em;
+    color: white;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+    article {
+        width: 40em;
+    }
+
+    .ref-container {
+        max-width: 40em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    article {
+        width: 100%;
+    }
+
+    .ref-container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        font-size: 16px;
+    }
+
+    body {
+        padding: 1em;
+    }
+
+    header {
+        flex-flow: column nowrap;
+    }
+
+    .links {
+        margin-top: 1em;
+        justify-content: flex-start;
+    }
 }
 
 /* noto-color-emoji-emoji-400-normal */
