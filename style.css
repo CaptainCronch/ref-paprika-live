@@ -8,7 +8,7 @@
 :root {
     --font-body: 'Inter Variable', 'Noto Color Emoji', sans-serif;
 	--font-heading: 'Bitter Variable', 'Noto Color Emoji', serif;
-	--font-mono: 'Noto Emoji Variable', 'Fira Mono', monospace;
+	--font-mono: 'Fira Mono', 'Noto Color Emoji', monospace;
     --color-primary: #367264FF;
     --color-secondary: #81211EFF;
     --color-tertiary: #4D0B1EFF;
@@ -125,16 +125,22 @@ article {
 }
 
 #ref-list {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 2em;
+    gap: 1em; */
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-template-columns: repeat(auto-fit, 45vw);
     gap: 1em;
+    margin-top: 2em;
 }
 
 .ref-container {
-    max-width: 45vw;
+    /* max-width: 45vw; */
     padding: 1em;
     background-color: var(--color-secondary);
     display: flex;
@@ -191,8 +197,12 @@ article {
         width: 40em;
     }
 
-    .ref-container {
+    /* .ref-container {
         max-width: 40em;
+    } */
+
+    #ref-list {
+        grid-template-columns: repeat(auto-fit, 40em);
     }
 }
 
@@ -201,8 +211,12 @@ article {
         width: 100%;
     }
 
-    .ref-container {
+    /* .ref-container {
         max-width: 100%;
+    } */
+    
+    #ref-list {
+        grid-template-columns: repeat(auto-fit, 100%);
     }
 }
 
@@ -232,15 +246,6 @@ article {
     font-display: swap;
     font-weight: 400;
     src: url(https://cdn.jsdelivr.net/fontsource/fonts/noto-color-emoji@latest/emoji-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/noto-color-emoji@latest/emoji-400-normal.woff) format('woff');
-}
-
-/* noto-emoji-emoji-wght-normal */
-@font-face {
-    font-family: 'Noto Emoji Variable';
-    font-style: normal;
-    font-display: swap;
-    font-weight: 300 700;
-    src: url(https://cdn.jsdelivr.net/fontsource/fonts/noto-emoji:vf@latest/emoji-wght-normal.woff2) format('woff2-variations');
 }
 
 /* fira-mono-latin-400-normal */

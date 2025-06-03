@@ -1,50 +1,46 @@
-// class RefImage {
-//     constructor(filename, title, description, date, artistName, artistProfile, altText, spoilerReason) {
-//         this.filename = filename
-//         this.title = title
-//         this.description = description
-//         this.date = date
-//         this.artistName = artistName
-//         this.artistProfile = artistProfile
-//         this.altText = altText
-//         this.spoilerReason = spoilerReason
-//     }
-// }
-
-// CustomElementRegistry.define("ref", RefImage, HTMLElement)
-
-customElements.define(
-    "ref-card",
-    class extends HTMLElement {
-        constructor() {
-            super();
-            let template = document.getElementById("ref-template");
-            let templateContent = template.content;
-
-            const shadowRoot = this.attachShadow({ mode: "open" });
-            shadowRoot.appendChild(templateContent.cloneNode(true));
-        }
-    },
-);
-
 const HOST = "https?:\/\/127\.0\.0\.1:5500\/" // https?:\/\/ref\.paprika\.live\/
 
 let url = window.location.href
 let regex = new RegExp("(?:"+ HOST + ")(.*)")
 let page = url.match(regex)[1] // 0th index should be entire url match, 1st index should be only the part after the host (eg: "paprika/main.html")
 
+let masonry = () => {
+    let grid = document.getElementById("ref-list")
+    let columns
+    let items = grid.getElementsByClassName("ref-container")
+    let currentColumns = getComputedStyle(grid).gridTemplateColumns.split(' ').length
+    
+    if (currentColumns !== columns) {
+        columns = currentColumns
+
+        Array.from(items).forEach(item => {
+            item.style.removeProperty("margin-top")
+        });
+
+        if (columns > 1) {
+            Array.from(items).slice(columns).forEach((item, index) => {
+                let bottomEdge = items.item(index).getBoundingClientRect().bottom
+                let topEdge = item.getBoundingClientRect().top
+
+                let gap = getComputedStyle(grid).rowGap
+                item.style.marginTop = `${bottomEdge + parseFloat(gap.substring(0, gap.length - 2)) - topEdge}px`
+            })
+        }
+    }
+    console.log("masoned (sorry for recalculating the masonry layout every second this shit is annoying to work with)")
+}
+
+addEventListener("resize", masonry)
+setInterval(masonry, 1000) // man
+
+// addEventListener("load", () => {setTimeout(() => {console.log("loaded"); setTimeout(masonry, 0)}, 100)})
+
+// const observer = new MutationObserver(() => {console.log("mutated"); setTimeout(masonry, 0)})
+// observer.observe(document.getElementById("ref-list"), {childList: true, subtree: true, attributes: true})
+
 fetch("/images.json")
 .then(res => res.json())
 .then(data => {
-    // do epic shit
-    // let template = document.getElementById("ref-template");
-    // let ref = document.createElement("ref-card")
-    // let slot = document.createElement("span")
-    // slot.setAttribute("slot", "title")
-    // slot.appendChild(document.createTextNode("now this is a slotted text"))
-    // ref.appendChild(slot)
-    // document.getElementById("ref-list").appendChild(ref)
-
     let imageArray
     let folderPath
     switch (page) {
@@ -94,15 +90,5 @@ fetch("/images.json")
         artistProfile.setAttribute("href", element.artistProfile)
 
         document.getElementById("ref-list").appendChild(refContainer)
-
-        // let refCard = document.createElement("ref-card")
-        // console.log(refCard.content)
-        // let filename = document.createElement("span")
-        // let filenameText = document.createTextNode(element.filename)
-        // filename.setAttribute("slot", "filename")
-        // filename.appendChild(filenameText)
-        // let refContainer = refCard.getElementsByClassName("ref-container")[0]
-        // refContainer.getElementsByClassName("filename")[0].appendChild(filename)
-        // document.getElementById("ref-list").appendChild(refCard)
     }
 })
