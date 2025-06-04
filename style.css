@@ -149,8 +149,67 @@ article {
     /* margin-right: auto; */
 }
 
+.ref-censor {
+    position: relative;
+}
+
+.ref-censor-container {
+    opacity: 1;
+    transition: all 0.5s;
+    transition-behavior: allow-discrete;
+}
+
+.ref-censor-container-clicked {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.ref-censor-panel {
+    position: absolute;
+    background-color: black;
+    /* backdrop-filter: blur(10rem); */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.ref-censor-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column nowrap; */
+}
+
+.ref-censor-text-container p {
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 1.25em;
+    text-shadow: black 0px 0px 10px;
+    user-select: none;
+}
+
+.ref-censor-reason {
+    font-size: 1.5rem;
+}
+
+.ref-hidden {
+    display: none;
+}
+
 .ref-image {
     width: 100%;
+}
+
+.lowres {
+    image-rendering: crisp-edges;
 }
 
 .ref-info {
@@ -165,8 +224,13 @@ article {
     text-align: right;
 }
 
+.ref-title {
+    text-shadow: none;
+    font-family: var(--font-body);
+}
+
 .ref-description {
-    font-size: 1.2em;
+
     margin-bottom: 1em;
 }
 
@@ -190,6 +254,36 @@ article {
     color: white;
     text-decoration: none;
     margin-top: 1em;
+}
+
+@supports (backdrop-filter: blur(10rem)) {
+    .ref-censor-panel {
+        background-color: transparent;
+        backdrop-filter: blur(10rem);
+        transition: all 0.5s;
+        transition-behavior: allow-discrete;
+    }
+
+    .ref-censor-panel-clicked {
+        visibility: hidden;
+        backdrop-filter: blur(0rem);
+    }
+    
+    .ref-censor-container-clicked {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .ref-censor-text-container {
+        opacity: 1;
+        transition: all 0.5s;
+        transition-behavior: allow-discrete;
+    }
+
+    .ref-censor-text-container-clicked {
+        visibility: hidden;
+        opacity: 0;
+    }
 }
 
 @media screen and (max-width: 1200px) {

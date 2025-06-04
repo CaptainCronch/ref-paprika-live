@@ -9,7 +9,8 @@
                 "artistName": "Plushieking / Puppinpills (artist no longer active, all socials deleted)",
                 "artistProfile": "https://puppinpills.carrd.co/",
                 "altText": "Digital drawing of a yellow anthropomorphic rabbit standing against a purple dotted background. They are covered in blood, and show off a sharp-toothed smile. Another picture of the same character is shown on the top right corner, where they present a large knife also covered in blood and stand in a more hunched pose.",
-                "spoilerReason": "Knife, blood"
+                "spoilerReason": "Knife, blood",
+                "lowres": false
             },
             {
                 "filename": "accentaigu-tw-lee-paprika.png",
@@ -19,7 +20,8 @@
                 "artistName": "Accentaigu",
                 "artistProfile": "https://bsky.app/profile/accentaigu.bsky.social",
                 "altText": "Digital drawing of a yellow anthropomorphic rabbit standing against a white background. They have an annoyed expression, and is wearing a white button-up shirt, blue dress pants, and a black belt.",
-                "spoilerReason": ""
+                "spoilerReason": "",
+                "lowres": false
             },
             {
                 "filename": "possbum-jesse-paprika.png",
@@ -29,7 +31,8 @@
                 "artistName": "Possbum",
                 "artistProfile": "https://bsky.app/profile/possbum.bsky.social",
                 "altText": "Digital drawing of a sad-looking yellow anthropomorphic rabbit standing against a grey background. They wear a yellow hoodie, with another black-and-white plaid zipper hoodie with rolled-up sleeves worn open on top. They also wear dark blue jeans, and are barefoot. Their black beanie hides most of their dark-brown hair, but a tuft manages to escape out the front and to the side. Their long and droopy ears also rest on their shoulders.",
-                "spoilerReason": ""
+                "spoilerReason": "",
+                "lowres": false
             },
             {
                 "filename": "lopjerk-paprika-painted.png",
@@ -39,7 +42,8 @@
                 "artistName": "Lopjerk",
                 "artistProfile": "https://x.com/lopjerk",
                 "altText": "Digital painting of a yellow anthropomorphic rabbit kneeling against a small campfire in the dark. They look over their shoulder with a pained expression, while they pry open a can with a chef's knife.",
-                "spoilerReason": "Knife"
+                "spoilerReason": "Knife",
+                "lowres": false
             },
             {
                 "filename": "paprika-ref-color.png",
@@ -49,7 +53,8 @@
                 "artistName": "Captaincronch / Captcronch / Cronch (me)",
                 "artistProfile": "https://ref.paprika.live",
                 "altText": "Digital reference drawing of a yellow anthropomorphic rabbit standing against a green background. Another version of the same character, facing 90 degrees to the left, is seen on the right side of the image. Various pieces of information about the character are found on a red column in the middle, including the character's name (Paprika), pronouns (he/they), gender (male), species (rabbit), and color palette (yellow-beige, creamy beige, reddish-brown, brown, salmon, and cyan).",
-                "spoilerReason": ""
+                "spoilerReason": "",
+                "lowres": false
             },
             {
                 "filename": "sodabytes-paprikapfp.png",
@@ -59,7 +64,8 @@
                 "artistName": "Sodabytes",
                 "artistProfile": "https://bsky.app/profile/sodabytes.com",
                 "altText": "Digital drawing of a happy-looking yellow anthropomorphic rabbit's face against a green background. Their ears barely show out of the frame, and their eyes don't show from under their brown hair.",
-                "spoilerReason": ""
+                "spoilerReason": "",
+                "lowres": false
             },
             {
                 "filename": "flockfolk-paprika.jpg",
@@ -69,7 +75,8 @@
                 "artistName": "Flockfolk",
                 "artistProfile": "https://bsky.app/profile/flockfolk.bsky.social",
                 "altText": "Digital drawing of a yellow anthropomorphic rabbit standing against an off-white background. Their hair covers their eyes, and they have a speech bubble containing a heart.",
-                "spoilerReason": ""
+                "spoilerReason": "",
+                "lowres": false
             },
             {
                 "filename": "paprika_the_bunneh.png",
@@ -79,14 +86,44 @@
                 "artistName": "Scidev (no online artist presence)",
                 "artistProfile": "https://github.com/SciDev5",
                 "altText": "Digital drawing of a yellow anthropomorphic rabbit standing against a white background, to the left of large text which states \"Paprika\", \"he/him\", and \"bunneh!\". The image is signed by \"SciDev\", who describes themselves in small text as the \"Proud maker of all the stuff nobody asked for\".",
-                "spoilerReason": ""
+                "spoilerReason": "",
+                "lowres": false
             }
         ],
-        "alternative": [
-
-        ],
         "other": [
-
+            {
+                "filename": "jammque-paprika-folklorical-defenestrate.png",
+                "title": "Mythological Creature Learns the Meaning of Pain",
+                "description": "",
+                "date": "January 15, 2024",
+                "artistName": "Not_foxo / Foxo / Fostar / Starlord8307",
+                "artistProfile": "https://bsky.app/profile/not-foxo.bsky.social",
+                "altText": "Digital animation of a yellow anthropomorphic rabbit chasing a fat grey bug, holding a bug net over their head. A forested background quickly scrolls past the two of them. The GIF has an IbisPaint watermark on the bottom right.",
+                "spoilerReason": "",
+                "lowres": true
+            },
+            {
+                "filename": "fo-starlord-paprika-bug-chase.gif",
+                "title": "Me After I Get Isekai'd Into Yo-kai Watch World",
+                "description": "Paprika trying to catch some weird kind of bug. This is a reference to a prototype of my indie RPG, Timotero. In early versions of the game, it was about catching insects (the bugs looked very strange!).",
+                "date": "January 15, 2024",
+                "artistName": "Not_foxo / Foxo / Fostar / Starlord8307",
+                "artistProfile": "https://bsky.app/profile/not-foxo.bsky.social",
+                "altText": "Digital animation of a yellow anthropomorphic rabbit chasing a fat grey bug, holding a bug net over their head. A forested background quickly scrolls past the two of them. The GIF has an IbisPaint watermark on the bottom right.",
+                "spoilerReason": "",
+                "lowres": false
+            },
+            {
+                "filename": "cosmos-paprika.jpg",
+                "title": "All Hipped Up on a Birthday",
+                "description": "Birthday gift art! He made me cute as hell look at me! Cozmoz makes super swanky art!",
+                "date": "July 11, 2023",
+                "artistName": "Cozmoz",
+                "artistProfile": "https://bsky.app/profile/mistacozmoz.bsky.social",
+                "altText": "Marker on lined paper drawing of a yellow anthropomorphic rabbit with hair covering their eyes posing for the viewer. They have one fist on their hip and one hand up to their head in a peace sign. Next to them are the words \"HAPPY BDAY CRONCH!\", and the art is signed by \"Cosmos\".",
+                "spoilerReason": "",
+                "lowres": false
+            }
         ]
     },
     "capri": [

@@ -48,10 +48,6 @@ fetch("/images.json")
             imageArray = data.paprika.main
             folderPath = "/images/paprika/main/"
             break;
-        case "paprika/alternative.html":
-            imageArray = data.paprika.alternative
-            folderPath = "/images/paprika/alternative/"
-            break;
         case "paprika/other.html":
             imageArray = data.paprika.other
             folderPath = "/images/paprika/other/"
@@ -69,15 +65,32 @@ fetch("/images.json")
         const element = imageArray[index];
         const refContainer = document.getElementById("ref-template").content.firstElementChild.cloneNode(true)
 
+        let censorContainer = refContainer.getElementsByClassName("ref-censor-container")[0]
+        censorContainer.addEventListener("click", () => {
+            censorContainer.classList.add("ref-censor-container-clicked")
+            refContainer.getElementsByClassName("ref-censor-panel")[0].classList.add("ref-censor-panel-clicked")
+            refContainer.getElementsByClassName("ref-censor-text-container")[0].classList.add("ref-censor-text-container-clicked")
+        })
+
+        let censorReason = refContainer.getElementsByClassName("ref-censor-reason")[0]
+        censorReason.textContent = element.spoilerReason
+        if (element.spoilerReason == "") {
+            refContainer.getElementsByClassName("ref-censor-container")[0].classList.add("ref-hidden")
+        }
+
         let image = refContainer.getElementsByClassName("ref-image")[0]
         image.setAttribute("src", folderPath + element.filename)
         image.setAttribute("alt", element.altText)
+        if (element.lowres) {image.classList.add("lowres")}
 
         let date = refContainer.getElementsByClassName("ref-date")[0]
         date.textContent = element.date
 
         let filename = refContainer.getElementsByClassName("ref-filename")[0]
         filename.textContent = element.filename
+
+        let title = refContainer.getElementsByClassName("ref-title")[0]
+        title.textContent = element.title
 
         let description = refContainer.getElementsByClassName("ref-description")[0]
         description.textContent = element.description
