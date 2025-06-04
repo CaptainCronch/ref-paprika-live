@@ -101,6 +101,7 @@ fetch("/images.json")
         let artistProfile = refContainer.getElementsByClassName("ref-artist-profile")[0]
         artistProfile.textContent = element.artistProfile
         artistProfile.setAttribute("href", element.artistProfile)
+        if (element.artistProfile == "") {artistProfile.classList.add("ref-hidden")}
 
         document.getElementById("ref-list").appendChild(refContainer)
     }

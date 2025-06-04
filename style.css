@@ -151,6 +151,7 @@ article {
 
 .ref-censor {
     position: relative;
+    width: 100%;
 }
 
 .ref-censor-container {
