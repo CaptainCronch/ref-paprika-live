@@ -31,7 +31,7 @@ let masonry = () => {
 }
 
 addEventListener("resize", masonry)
-setInterval(masonry, 1000) // man
+// setInterval(masonry, 1000) // man // nevermind i found out img elements emit a load event awesome
 
 // addEventListener("load", () => {setTimeout(() => {console.log("loaded"); setTimeout(masonry, 0)}, 100)})
 
@@ -82,6 +82,7 @@ fetch("/images.json")
         image.setAttribute("src", folderPath + element.filename)
         image.setAttribute("alt", element.altText)
         if (element.lowres) {image.classList.add("lowres")}
+        image.onload = masonry
 
         let date = refContainer.getElementsByClassName("ref-date")[0]
         date.textContent = element.date
