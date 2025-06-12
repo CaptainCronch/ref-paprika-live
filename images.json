@@ -83,7 +83,7 @@
                 "title": "The Original Concept",
                 "description": "Reference made by one of my first furry friends. I provided her with a long list of wants and desires, and she fulfilled it to the best of her ability. As can be seen, my friend is very sci-fi-minded, but the changes made over time haven't been very extreme.",
                 "date": "October 18, 2022",
-                "artistName": "Scidev (no online artist presence)",
+                "artistName": "Scidev (not on social media, as far as I know)",
                 "artistProfile": "https://github.com/SciDev5",
                 "altText": "Digital drawing of a yellow anthropomorphic rabbit standing against a white background, to the left of large text which states \"Paprika\", \"he/him\", and \"bunneh!\". The image is signed by \"SciDev\", who describes themselves in small text as the \"Proud maker of all the stuff nobody asked for\".",
                 "spoilerReason": "",
@@ -173,7 +173,7 @@
                 "title": "Smoking On That Dark Evil Bard Pack",
                 "description": "Paprika as an evil and charismatic motherfucker. Dungeons & Dragons. And yes, that's a mandolin. And yes, that's a bladed bow (not the kind you use with arrows).",
                 "date": "November 25, 2023",
-                "artistName": "Scidev (no online artist presence)",
+                "artistName": "Scidev (not on social media, as far as I know)",
                 "artistProfile": "https://github.com/SciDev5",
                 "altText": "Digital sketch drawing of an anthropomorphic rabbit holding a mandolin upside down, resting a small sword on it, much like a bow rests on a violin. They wear some sort of armor. On the right, the art is titled in cursive with \"paprika\", and underneath with \"The DARK BARD\". The art is also signed by \"SCIDEV5\" in a sci-fi themed font.",
                 "spoilerReason": "",
@@ -226,9 +226,62 @@
         ]
     },
     "capri": [
-
+        {
+            "filename": "meowkuza-capri.png",
+            "title": "Posed up (hard)",
+            "description": "For her first commission (helping to solidify her character status as a sona), she was placed in a more usual scenario. She put her camera or maybe phone on the ground with the fisheye lens on and posed up for the hardest pic of all time. I gave her fun dangly hornrings, as well as a short sleeve shirt and bag I actually own (though she gets to add a scarab of course).",
+            "date": "September 17, 2024",
+            "artistName": "Skek / Meowkuza",
+            "artistProfile": "https://x.com/meowkuza",
+            "altText": "Digital drawing of a red anthropomorphic wingless dragonlike creature. They have curved horns, wear a green cloak, and sport a green waist bag. A front view of the character is seen on the right, and a side view on the left side of the image. At the top, the name \"CAPRI\" is written.",
+            "spoilerReason": "",
+            "lowres": false
+        },
+        {
+            "filename": "capri-ref.png",
+            "title": "Refurbished Original Design Reference",
+            "description": "As she was originally a video game NPC, her reference page was also originally a 2D reference for a 3D model (which never ended up happening). Once again, I decided to clean it up and color it to make a full ref (also why she is in A-pose). I think the title bar at the top of the screenshot says it all.",
+            "date": "January 17, 2024",
+            "artistName": "Captaincronch / Captcronch / Cronch (me)",
+            "artistProfile": "https://ref.paprika.live",
+            "altText": "Digital drawing of a red anthropomorphic wingless dragonlike creature seen from a fisheye lens placed on the ground in front of them. They have curved horns, wear an unbuttoned green botanical print short sleeve shirt, and sport a yellow bag. They pose, leaning back against a pole, with one foot also against it. The background consists of an abstract cityscape, with blocky grey buildings, and a light blue cloudy sky.",
+            "spoilerReason": "",
+            "lowres": false
+        }
     ],
     "other": [
-
+        {
+            "filename": "sugarxxe-nico-burger.jpg",
+            "title": "Me Sowing: Haha Fuck Yeah!!! Yes!! / Me Reaping: Well This Fucking Sucks. What the Fuck.",
+            "description": "They don't give Nico many smoking breaks at McDonald's.",
+            "date": "October 7, 2023",
+            "artistName": "Sugarxxe (dropped out of social media, as far as I know)",
+            "artistProfile": "https://bsky.app/profile/sugarxxe.bsky.social",
+            "altText": "Digital sketch drawing of an anthropomorphic ferret wearing a white dress shirt, tie, sunglasses, and apron. They sadly flip burgers on a grill while smoking a cigarette.",
+            "spoilerReason": "",
+            "lowres": false
+        },
+        {
+            "filename": "pix-and-bit-possum-oc-mochi2106.jpg",
+            "title": "Prototype OC Remake",
+            "description": "Unnamed possum OC designed by me for a Pix & Bit fangame. The original concept showed a warm-colored black, white, and teal possum with a skunk-shaped tail. They wore a large dark red backpack as well as a dark red bucket hat.",
+            "date": "October 2, 2023",
+            "artistName": "Maeve / Mochi2106 (not on social media, as far as I know)",
+            "artistProfile": "",
+            "altText": "Paper and pencil sketch drawing of an anthropomorphic possum wearing a bucket hat. They have simple cartoonish round paws.",
+            "spoilerReason": "",
+            "lowres": false
+        },
+        {
+            "filename": "purplecores-nico-painted.jpg",
+            "title": "Chilling After Destroying an Entire Office Floor",
+            "description": "Nico, the cool ferret protagonist of Not Business, Just Personal. One of my creations, it is a stealth game where you play as a ferret looking to get revenge on your workplace by destroying all the electronics through water damage. Nico is normally just a silly little guy, but on that day he had to get quite serious.",
+            "date": "August 20, 2023",
+            "artistName": "Purplecores",
+            "artistProfile": "https://x.com/purpl3cor3z",
+            "altText": "Digital lined painting of an anthropomorphic ferret wearing a white dress shirt, tie, and sunglasses. They hold a smoking cigarette, while leaning on a water cooler.",
+            "spoilerReason": "",
+            "lowres": false
+        }
     ]
 }
