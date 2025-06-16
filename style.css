@@ -28,6 +28,7 @@
 body {
     background-color: var(--color-primary);
     padding: 1em 2em;
+    max-width: 100% !important;
 }
 
 h1, h2, h3, h4, h5, h6{
