@@ -1,4 +1,4 @@
-const HOST = "https?:\/\/127\.0\.0\.1:5500\/" // https?:\/\/ref\.paprika\.live\/
+const HOST = "https?:\/\/ref\.paprika\.live\/" // https?:\/\/127\.0\.0\.1:5500\/
 
 let url = window.location.href
 let regex = new RegExp("(?:"+ HOST + ")(.*)")
