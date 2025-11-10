@@ -325,6 +325,8 @@ article {
 
     body {
         padding: 1em;
+        position: relative;
+        box-sizing: border-box;
     }
 
     header {
