@@ -92,6 +92,17 @@
         ],
         "other": [
             {
+                "filename": "bone_ruck-paprika-knife-evil-smile.jpg",
+                "title": "Candid Photograph Taken of Paprika During their Usual Business",
+                "description": "Sketch by my buddy Boneruck. I feel like it does Paprika great justice :3",
+                "date": "January 31, 2026",
+                "artistName": "boneruck",
+                "artistProfile": "https://bsky.app/profile/boneruck.bsky.social",
+                "altText": "Pencil drawing on grid paper showing a bust of an anthropomorphic rabbit smiling with sharp teeth and holding up a large black knife.",
+                "spoilerReason": "Knife",
+                "lowres": false
+            },
+            {
                 "filename": "realcookiee-paprika-rantsona-youtube-screenshot-fortnite-cruelty-squad.png",
                 "title": "Youtube Rantsona DESTROYS Liberal Gamers",
                 "description": "My buddy Cookie making fun of me again by drawing me as a cringe gaming opinion haver (hear me out!!! watch my video!!!).",
@@ -260,13 +271,24 @@
     },
     "capri": [
         {
+            "filename": "capri-seethrough-kyunastralgoat.png",
+            "title": "Capri-sun",
+            "description": "Drawing by my buddy Kyun as part of an art trade! Here she is depicted quite widely as is tradition in Kyun's artstyle, as well as having a translucent coat, which I think is humorous since in her original reference image you are able to see the shape of her limbs through her clothing, for reference purposes.",
+            "date": "January 10, 2026",
+            "artistName": "Kyungoat",
+            "artistProfile": "https://bsky.app/profile/kyungoat.bsky.social",
+            "altText": "Digital drawing of a red anthropomorphic wingless dragonlike creature. They have curved horns, wear a translucent green cloak, and sport a green waist bag, worn low on their hip.",
+            "spoilerReason": "",
+            "lowres": false
+        },
+        {
             "filename": "meowkuza-capri.png",
             "title": "Posed up (hard)",
             "description": "For her first commission (helping to solidify her character status as a sona), she was placed in a more usual scenario. She put her camera or maybe phone on the ground with the fisheye lens on and posed up for the hardest pic of all time. I gave her fun dangly hornrings, as well as a short sleeve shirt and bag I actually own (though she gets to add a scarab of course).",
             "date": "September 17, 2024",
             "artistName": "Skek / Meowkuza",
             "artistProfile": "https://x.com/meowkuza",
-            "altText": "Digital drawing of a red anthropomorphic wingless dragonlike creature. They have curved horns, wear a green cloak, and sport a green waist bag. A front view of the character is seen on the right, and a side view on the left side of the image. At the top, the name \"CAPRI\" is written.",
+            "altText": "Digital drawing of a red anthropomorphic wingless dragonlike creature seen from a fisheye lens placed on the ground in front of them. They have curved horns, wear an unbuttoned green botanical print short sleeve shirt, and sport a yellow bag. They pose, leaning back against a pole, with one foot also against it. The background consists of an abstract cityscape, with blocky grey buildings, and a light blue cloudy sky.",
             "spoilerReason": "",
             "lowres": false
         },
@@ -277,7 +299,7 @@
             "date": "January 17, 2024",
             "artistName": "Captaincronch / Captcronch / Cronch (me)",
             "artistProfile": "https://ref.paprika.live",
-            "altText": "Digital drawing of a red anthropomorphic wingless dragonlike creature seen from a fisheye lens placed on the ground in front of them. They have curved horns, wear an unbuttoned green botanical print short sleeve shirt, and sport a yellow bag. They pose, leaning back against a pole, with one foot also against it. The background consists of an abstract cityscape, with blocky grey buildings, and a light blue cloudy sky.",
+            "altText": "Digital drawing of a red anthropomorphic wingless dragonlike creature. They have curved horns, wear a green cloak, and sport a green waist bag. A front view of the character is seen on the right, and a side view on the left side of the image. At the top, the name \"CAPRI\" is written.",
             "spoilerReason": "",
             "lowres": false
         }

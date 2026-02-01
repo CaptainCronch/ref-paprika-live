@@ -7,6 +7,7 @@ let page = url.match(regex)[1] // 0th index should be entire url match, 1st inde
 
 let masonry = () => {
     let grid = document.getElementById("ref-list")
+    if (grid === null) {return}
     let columns
     let items = grid.getElementsByClassName("ref-container")
     let currentColumns = getComputedStyle(grid).gridTemplateColumns.split(' ').length
@@ -28,7 +29,7 @@ let masonry = () => {
             })
         }
     }
-    console.log("masoned (sorry for recalculating the masonry layout every second this shit is annoying to work with)")
+    // console.log("masoned (sorry for recalculating the masonry layout every second this shit is annoying to work with)")
 }
 
 addEventListener("resize", masonry)
