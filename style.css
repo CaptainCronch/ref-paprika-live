@@ -98,6 +98,18 @@ p {
     padding: 0.25em 0.75em;
 }
 
+.music {
+    margin: 0;
+    margin-top: 1em;
+    font-style: italic;
+}
+
+audio {
+    display: block;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
 header {
     display: flex;
     flex-flow: row nowrap;
