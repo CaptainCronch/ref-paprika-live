@@ -92,6 +92,39 @@
         ],
         "other": [
             {
+                "filename": "paprika-self-portrait-laying.png",
+                "title": "Figure Self-Landscape From Reference",
+                "description": "Made in Aseprite on yet another whim, this time I accidentally made a pinup of myself, though in a relaxed pose. I used a 3D pose reference website, modifying the pose a bit to have the head turned towards the viewer, as well as having the forearms down and shoulders up to make the pose feel more comfortable. You may also notice that this time rather than annoyed they seem a bit more pained.",
+                "date": "April 2, 2026",
+                "artistName": "Captaincronch / Captcronch / Cronch (me)",
+                "artistProfile": "https://ref.paprika.live",
+                "altText": "Low-resolution digital aliased turquoise-on-white sketch of an anthropomorphic rabbit with dark curly hair laying flat on their stomach, back curled up, supported by their elbows, with their palms down on the ground. Their legs are up in the air, feet crossed, and they look sideways towards the viewer with a somewhat pained look.",
+                "spoilerReason": "",
+                "lowres": true
+            },
+            {
+                "filename": "paprika-self-portrait-scene-pose.png",
+                "title": "Figure Self-Portrait From Photo Reference",
+                "description": "Made in Aseprite on another whim, I wanted to try a different pose, so I took a picture of myself to use as reference. I couldn't fit on the frame with the way my phone was set up, hence the kneeling. This is also the first art of Paprika wearing glasses (I am an avid glasses-wearer in reality)!",
+                "date": "April 1, 2026",
+                "artistName": "Captaincronch / Captcronch / Cronch (me)",
+                "artistProfile": "https://ref.paprika.live",
+                "altText": "Low-resolution digital aliased maroon-on-white sketch of an anthropomorphic rabbit with dark curly hair and resting bitch face kneeling while facing the viewer and doing a little pose with their hands as if they're claws.",
+                "spoilerReason": "",
+                "lowres": true
+            },
+            {
+                "filename": "paprika-self-portrait-phone-lounge.png",
+                "title": "Figure Self-Portrait From Memory",
+                "description": "Made in Aseprite on a whim, I just felt like drawing what I look like sitting on the porch chair, but as an annoyed-looking rabbit. I also went for hair that's more accurate to how my own looks, rather than how Paprika is usually drawn (most people don't really have experience drawing textured hair).",
+                "date": "March 29, 2026",
+                "artistName": "Captaincronch / Captcronch / Cronch (me)",
+                "artistProfile": "https://ref.paprika.live",
+                "altText": "Low-resolution digital aliased red-on-white sketch of an annoyed-looking anthropomorphic rabbit with dark curly hair looking up from their phone while sitting on a lawn chair. They are also crossing their feet.",
+                "spoilerReason": "",
+                "lowres": true
+            },
+            {
                 "filename": "bone_ruck-paprika-knife-evil-smile.jpg",
                 "title": "Candid Photograph Taken of Paprika During their Usual Business",
                 "description": "Sketch by my buddy Boneruck. I feel like it does Paprika great justice :3",
@@ -136,28 +169,6 @@
                 "lowres": false
             },
             {
-                "filename": "realcookiee-paprika-cookie-hammer-torture-sadism-blood.webp",
-                "title": "I Would Torture This Dude in a Shipping Container for up to a Year",
-                "description": "My buddy Cookie deriving some sort of sick pleasure from inflicting harm upon me. I feel like a CS:GO hostage.",
-                "date": "May 24, 2025",
-                "artistName": "Realcookii / Realcookiee",
-                "artistProfile": "https://bsky.app/profile/realcookii.bsky.social",
-                "altText": "Digital drawing of a yellow anthropomorphic rabbit wearing only underwear with blood splattered on their fur, coming out of their head. They are being held off the ground by their hair by a purple anthropomorphic cat wearing a ski mask. The rabbit has a scared expression on their face, while the cat has a happy one. The cat wields a hammer in their other hand, and also sports blood-splattered clothing.",
-                "spoilerReason": "Blood, implied torture, sadism",
-                "lowres": false
-            },
-            {
-                "filename": "jammque-paprika-folklorical-defenestrate.png",
-                "title": "Mythological Creature Learns the Meaning of Pain",
-                "description": "Reference to that one stupid GenAI slideshow meme where Luigi gets sick and Mario throws people out of windows until he can save his brother. Drawover. Featuring the folklorical / mythical version of Paprika.",
-                "date": "March 26, 2025",
-                "artistName": "Jammque",
-                "artistProfile": "https://bsky.app/profile/jammque.bsky.social",
-                "altText": "Low resolution black-and-white aliased digital drawing of an anthropomorphic rabbit with talons, a long unicorn horn, and a snake tail. It appears to have been thrown out of the window of a tall building. It has a surprised and scared expression on its face.",
-                "spoilerReason": "",
-                "lowres": true
-            },
-            {
                 "filename": "janinfloli-paprika-cronch-serve-cunt.png",
                 "title": "I Feel so Anime",
                 "description": "The most powerful pose Paprika can be found in. Nothing has come close to this day. It speaks for itself.",
@@ -166,6 +177,17 @@
                 "artistProfile": "",
                 "altText": "Pen on graph paper line drawing of an anthropomorphic rabbit with hair covering their eyes posing strongly and solemnly. Next to them there are words saying \"The 'c' in cronch stands for CUNT.\"",
                 "spoilerReason": "",
+                "lowres": false
+            },
+            {
+                "filename": "realcookiee-paprika-cookie-hammer-torture-sadism-blood.webp",
+                "title": "I Would Torture This Dude in a Shipping Container for up to a Year",
+                "description": "My buddy Cookie deriving some sort of sick pleasure from inflicting harm upon me. I feel like a CS:GO hostage.",
+                "date": "May 24, 2025",
+                "artistName": "Realcookii / Realcookiee",
+                "artistProfile": "https://bsky.app/profile/realcookii.bsky.social",
+                "altText": "Digital drawing of a yellow anthropomorphic rabbit wearing only underwear with blood splattered on their fur, coming out of their head. They are being held off the ground by their hair by a purple anthropomorphic cat wearing a ski mask. The rabbit has a scared expression on their face, while the cat has a happy one. The cat wields a hammer in their other hand, and also sports blood-splattered clothing.",
+                "spoilerReason": "Blood, implied torture, sadism",
                 "lowres": false
             },
             {
@@ -189,6 +211,28 @@
                 "altText": "Digital drawing of a yellow anthropomorphic rabbit with wavy hair, a singular bony horn, clawed talons, and a brown snake tail. Its neck is surrounded by longer, fluffier fur. It stands openly against a white background. The drawing is signed in cursive by \"owlylly\".",
                 "spoilerReason": "",
                 "lowres": false
+            },
+            {
+                "filename": "jammque-paprika-folklorical-defenestrate.png",
+                "title": "Mythological Creature Learns the Meaning of Pain",
+                "description": "Reference to that one stupid GenAI slideshow meme where Luigi gets sick and Mario throws people out of windows until he can save his brother. Drawover. Featuring the folklorical / mythical version of Paprika.",
+                "date": "March 26, 2025",
+                "artistName": "Jammque",
+                "artistProfile": "https://bsky.app/profile/jammque.bsky.social",
+                "altText": "Low resolution black-and-white aliased digital drawing of an anthropomorphic rabbit with talons, a long unicorn horn, and a snake tail. It appears to have been thrown out of the window of a tall building. It has a surprised and scared expression on its face.",
+                "spoilerReason": "",
+                "lowres": true
+            },
+            {
+                "filename": "gallium-paprika-cowthey-minecraft-map.png",
+                "title": "Just an Honest Minecraft Cowthey",
+                "description": "One day I log into the oomf minecraft server and this is just there, as a map on an item frame, over my bed. Jumpscare to say the least. For context my main place in the world was a ranch house, built in the middle of a fenced ranch for all kinds of quadrupeds. I would keep horses for people basically.",
+                "date": "March 9, 2025",
+                "artistName": "Galli / Gallium / Lunaticharness",
+                "artistProfile": "https://bsky.app/profile/lunaticharness.bsky.social",
+                "altText": "Digital low-resolution bust painting of a yellow anthropomorphic smirking rabbit wearing a tilted-down leather hat embedded with a green emerald. They have brown fluffy hair, long floppy ears, and their eyes are not visible. Behind them is a green meadow with white flowers and faraway trees. The sky is blue and full of clouds.",
+                "spoilerReason": "",
+                "lowres": true
             },
             {
                 "filename": "kyungoat-paprika-ice-cream.png",
@@ -319,7 +363,7 @@
         {
             "filename": "pix-and-bit-possum-oc-mochi2106.jpg",
             "title": "Prototype OC Remake",
-            "description": "Unnamed possum OC designed by me for a Pix & Bit fangame. The original concept showed a warm-colored black, white, and teal possum with a skunk-shaped tail. They wore a large dark red backpack as well as a dark red bucket hat.",
+            "description": "Gift sketch of the unnamed possum OC! Maeve went with a much less cartoony style, and they turned out very cute!",
             "date": "October 2, 2023",
             "artistName": "Maeve / Mochi2106 (not on social media, as far as I know)",
             "artistProfile": "",
@@ -328,15 +372,37 @@
             "lowres": false
         },
         {
+            "filename": "pix-and-bit-possum-oc-ref.png",
+            "title": "The Original Unnamed Possum Reference.",
+            "description": "OC designed by me for a Pix & Bit fangame. I saw everyone else on the team designing characters for the game, so I decided to try my hand at it. I'm a big fan of turquoise if you couldn't tell yet.",
+            "date": "September 6, 2023",
+            "artistName": "Captaincronch / Captcronch / Cronch (me)",
+            "artistProfile": "https://ref.paprika.live",
+            "altText": "Digital colored drawing of a cartoony anthropomorphic possum. Their fur is mostly a warm brown and white, with turquoise highlights on their round paws, feet, inner ear, and nose. They wear a wine red bucket hat and backpack, and they have a skunk-like tail.",
+            "spoilerReason": "",
+            "lowres": false
+        },
+        {
             "filename": "purplecores-nico-painted.jpg",
             "title": "Chilling After Destroying an Entire Office Floor",
-            "description": "Nico, the cool ferret protagonist of Not Business, Just Personal. One of my creations, it is a stealth game where you play as a ferret looking to get revenge on your workplace by destroying all the electronics through water damage. Nico is normally just a silly little guy, but on that day he had to get quite serious.",
+            "description": "This was my first piece of fanart ever! It's awesome having someone like what you made enough to spend time and effort creating their own art about it. It was also the first piece of painted art I ever received!",
             "date": "August 20, 2023",
             "artistName": "Purplecores",
             "artistProfile": "https://x.com/purpl3cor3z",
             "altText": "Digital lined painting of an anthropomorphic ferret wearing a white dress shirt, tie, and sunglasses. They hold a smoking cigarette, while leaning on a water cooler.",
             "spoilerReason": "",
             "lowres": false
+        },
+        {
+            "filename": "just-personal-not-business-nico.png",
+            "title": "Nico's First Screen Appearance.",
+            "description": "The title screen from the game that Nico, the cool ferret protagonist of Not Business, Just Personal, comes from. One of my creations, it is a stealth game where you play as a ferret looking to get revenge on your workplace by destroying all the electronics via water damage. Nico is normally just a silly little guy, but on that day he had to get quite serious. If you will notice, his sunglasses are actually taped on.",
+            "date": "May 22, 2023",
+            "artistName": "Captaincronch / Captcronch / Cronch (me)",
+            "artistProfile": "https://ref.paprika.live",
+            "altText": "Digital colored aliased drawing of a low camera angle, looking up at a smirking anthropomorphic ferret wearing a white dress shirt, black tie, dark sunglasses, and smoking a cigarette. Behind them a tall beige building is seen, with the blue sky and clouds circling around it. Red handwritten text with a yellow backdrop above says \"NOT BUSINESS, JUST PERSONAL\".",
+            "spoilerReason": "",
+            "lowres": true
         }
     ]
 }
