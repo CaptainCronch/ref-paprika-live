@@ -92,6 +92,39 @@
         ],
         "other": [
             {
+                "filename": "shapeguy-paprika-emo.png",
+                "title": "Paprika (Gone Emo)",
+                "description": "Birthday gift art! Paprika in all their glory: messy hair, claws, a knife, and now featuring a whole never-before-seen emo outfit. Godbless.",
+                "date": "July 11, 2026",
+                "artistName": "Shapeguy",
+                "artistProfile": "https://shapeguy.neocities.org",
+                "altText": "Digital colored drawing of a yellow anthopomorphic lop-eared rabbit looking up and smiling, with medium-length messy brown hair, black claws, a small knife, an oversize long-sleeved black-and-white striped shirt, black pants, a null symbol pendant, and a black heart tattoo on their cheek. They stand against a fancy abstract turquoise background.",
+                "spoilerReason": "",
+                "lowres": false
+            },
+            {
+                "filename": "realcookiee-paprika-birthday-feliz-aniversário.png",
+                "title": "Feliz Aniversário",
+                "description": "My buddy Cookie depicting me in some kind of abstract birthday dimension where everything is Brazilian rabbit-themed. The text in Portuguese reads \"HAPPY BIRTHDAYYYYYYYYY\".",
+                "date": "July 10, 2026",
+                "artistName": "Realcookii / Realcookiee",
+                "artistProfile": "https://bsky.app/profile/realcookii.bsky.social",
+                "altText": "Digital black-on-white sketch of a surprised-looking rabbit with messy hair and a party hat sitting on a chair. They are surrounded by superimposed images of real rabbits, confetti, a Brazilian flag, a carrot cake, a Discord profile picture, and a large purple rabbit with a speech bubble saying \"happy bday gng\". The image is captioned with \"FELIZ ANIVERSÁRIOOOOOOOOO\".",
+                "spoilerReason": "",
+                "lowres": false
+            },
+            {
+                "filename": "realcookiee-paprika-feral-folklore-creature-coelho-grande.png",
+                "title": "Feral Bunnicorn",
+                "description": "My buddy Cookie has portrayed me as some kind of wise old fae. The text in Portuguese reads \"LARGE RABBIT\".",
+                "date": "May 22, 2026",
+                "artistName": "Realcookii / Realcookiee",
+                "artistProfile": "https://bsky.app/profile/realcookii.bsky.social",
+                "altText": "Digital black-on-white sketch of a lop-eared rabbit with messy hair, a unihorn, and glassy-looking eyes. The image is captioned with \"COELHO GRANDE\".",
+                "spoilerReason": "",
+                "lowres": false
+            },
+            {
                 "filename": "paprika-self-portrait-laying.png",
                 "title": "Figure Self-Landscape From Reference",
                 "description": "Made in Aseprite on yet another whim, this time I accidentally made a pinup of myself, though in a relaxed pose. I used a 3D pose reference website, modifying the pose a bit to have the head turned towards the viewer, as well as having the forearms down and shoulders up to make the pose feel more comfortable. You may also notice that this time rather than annoyed they seem a bit more pained.",
@@ -373,7 +406,7 @@
         },
         {
             "filename": "pix-and-bit-possum-oc-ref.png",
-            "title": "The Original Unnamed Possum Reference.",
+            "title": "The Original Unnamed Possum Reference",
             "description": "OC designed by me for a Pix & Bit fangame. I saw everyone else on the team designing characters for the game, so I decided to try my hand at it. I'm a big fan of turquoise if you couldn't tell yet.",
             "date": "September 6, 2023",
             "artistName": "Captaincronch / Captcronch / Cronch (me)",
@@ -395,7 +428,7 @@
         },
         {
             "filename": "just-personal-not-business-nico.png",
-            "title": "Nico's First Screen Appearance.",
+            "title": "Nico's First Screen Appearance",
             "description": "The title screen from the game that Nico, the cool ferret protagonist of Not Business, Just Personal, comes from. One of my creations, it is a stealth game where you play as a ferret looking to get revenge on your workplace by destroying all the electronics via water damage. Nico is normally just a silly little guy, but on that day he had to get quite serious. If you will notice, his sunglasses are actually taped on.",
             "date": "May 22, 2023",
             "artistName": "Captaincronch / Captcronch / Cronch (me)",
